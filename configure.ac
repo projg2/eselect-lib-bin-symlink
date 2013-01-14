@@ -11,6 +11,7 @@ AC_ARG_WITH([eselectlibdir],
 
 AC_SUBST([eselectlibdir], [${with_eselectlibdir}])
 
+AC_PROG_MKDIR_P
 AC_PROG_SED
 
 AC_CONFIG_FILES([Makefile])
